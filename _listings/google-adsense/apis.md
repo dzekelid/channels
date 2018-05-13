@@ -17,15 +17,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Adsense API Get Custom Channels
-  description: List all host custom channels in this AdSense account.
+- name: Google Adsense API Update Custom Channels
+  description: Update a custom channel in the host AdSense account. This method supports
+    patch semantics.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
   baseURL: https://{host}//
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/adclients-adclientid-customchannels-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/adclients-adclientid-customchannels-patch.md
 x-common:
 - type: x-blog
   url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
