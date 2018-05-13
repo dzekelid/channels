@@ -16,17 +16,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/azure-devtest-labs/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure DevTest Labs API Notification Channels Delete
-  description: Delete notificationchannel.
+- name: Azure DevTest Labs API Notification Channels Update
+  description: Modify properties of notificationchannels.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-devtest-integrate.png
   humanURL: https://azure.microsoft.com/en-us/services/devtest-lab/
   baseURL: http:://management.azure.com//
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-notificationchannels-name-delete.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-notificationchannels-name-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/azure-devtest-labs/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-devtestlab-labs-labname-notificationchannels-name-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/devtest-lab/
