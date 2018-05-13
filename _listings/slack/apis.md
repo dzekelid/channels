@@ -30,17 +30,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Slack Remove User From Channel
-  description: Removes a user from a channel.
+- name: Slack Get Channel History
+  description: Fetches history of messages and events from a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-kick-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-history-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-kick-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-history-get-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
