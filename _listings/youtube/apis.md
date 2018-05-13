@@ -17,17 +17,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Delete Channel Sections
-  description: Deletes a channelSection.
+- name: Youtube Get Channel Sections
+  description: Returns channelSection resources that match the API request criteria.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-get-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
