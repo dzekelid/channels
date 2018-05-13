@@ -41,17 +41,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-unarchive-post.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-unarchive-post-postman.md
-- name: Slack Join Channel
-  description: Joins a channel, creating it if needed.
+- name: Slack Set Channel Topic
+  description: Sets the topic for a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-join-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-settopic-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-join-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-settopic-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
