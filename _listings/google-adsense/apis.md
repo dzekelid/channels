@@ -26,7 +26,26 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/adclients-adclientid-urlchannels-post.md
+- name: Google Adsense API Delete URL Channel
+  description: Delete a URL channel from the host AdSense account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
+  humanURL: https://developers.google.com/adsense/
+  baseURL: https://{host}//
+  tags: Channels
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/adclients-adclientid-urlchannels-urlchannelid-delete.md
 x-common:
+- type: x-blog
+  url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
+- type: x-blog-rss
+  url: http://googleadsdeveloper.blogspot.com/feeds/posts/default?alt=rss
+- type: x-developers
+  url: https://developers.google.com/adsense/
+- type: x-twitter
+  url: https://twitter.com/AdSense
+- type: x-website
+  url: https://www.google.com/adsense/
 - type: x-blog
   url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
 - type: x-blog-rss
