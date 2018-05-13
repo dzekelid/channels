@@ -17,15 +17,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Add Channel Sections
-  description: Adds a channelSection for the authenticated user's channel.
+- name: Youtube Put Channel Sections
+  description: Update a channelSection.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-put.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
