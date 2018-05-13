@@ -16,15 +16,16 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Doubleclick API Get Custom Channels
-  description: Get the specified custom channel from the specified ad client.
+- name: Google Doubleclick API Get URL Channels
+  description: List all URL channels in the specified ad client for this Ad Exchange
+    account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
   baseURL: https://{host}//
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/accounts-accountid-adclients-adclientid-customchannels-customchannelid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/accounts-accountid-adclients-adclientid-urlchannels-get.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
