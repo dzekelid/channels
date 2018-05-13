@@ -17,18 +17,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Get Channels
-  description: Returns a collection of zero or more channel resources that match the
-    request criteria.
+- name: Youtube Parameters Channels
+  description: Parameters channels
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
