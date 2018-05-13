@@ -17,15 +17,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Adsense API Delete Custom Channel
-  description: Delete a specific custom channel from the host AdSense account.
+- name: Google Adsense API Get Custom Channel
+  description: Get a specific custom channel from the host AdSense account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
   baseURL: https://{host}//
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/adclients-adclientid-customchannels-customchannelid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-adsense/adclients-adclientid-customchannels-customchannelid-get.md
 x-common:
 - type: x-blog
   url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
