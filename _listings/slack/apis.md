@@ -30,17 +30,17 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Slack Rename Channel
-  description: Renames a channel.
+- name: Slack Mark Channel
+  description: Sets the read cursor in a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-rename-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-mark-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-rename-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-mark-post-postman.md
 x-common:
 - type: x-application-gallery
   url: https://slack.com/apps
