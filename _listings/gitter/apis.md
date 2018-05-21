@@ -1,19 +1,40 @@
 ---
 name: Gitter
+x-slug: gitter
 description: Gitter is a chat and networking platform that helps to manage, grow and
   connect communities through messaging, content and discovery.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
 x-kinRank: "8"
 x-alexaRank: "18282"
-tags:
-- Technology
-- SaaS
-- New
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Channels
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/gitter/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Gitter API Get User Channels
+  x-api-slug: gitter-api
+  description: List of Gitter channels nested under the current user.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
+  humanURL: http://gitter.im
+  baseURL: https://///user/:userId/channels
+  tags: Users,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/gitter/useruseridchannels-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/gitter/useruseridchannels-get-openapi.md
+- name: Gitter API
+  x-api-slug: gitter-api
+  description: Gitter is a chat and networking platform that helps to manage, grow
+    and connect communities through messaging, content and discovery.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gitter-logo.png
+  humanURL: http://gitter.im
+  baseURL: https:///
+  tags: Channels
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/gitter/openapi.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/gitter

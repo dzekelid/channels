@@ -1,39 +1,43 @@
 ---
 name: NPR
+x-slug: npr
 description: NPR delivers breaking national and world news. Also top stories from
   business, politics, health, science, technology, music, arts and culture. Subscribe
   to podcasts and RSS feeds.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
 x-kinRank: "9"
 x-alexaRank: "641"
-tags:
-- Stack Network
-- Stack
-- Radio
-- Publishing
-- News
-- Mobile
-- Media
-- Getting Started
-- Federal Government
-- Broadcasting
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Channels
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
 - name: NPR Get the list of available channels
+  x-api-slug: npr
   description: These channels allow the user to specify a focus for the content returned
     in the recommendations endpoint.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
+  humanURL: http://www.npr.org
+  baseURL: https://api.npr.org////listening/v2/channels
+  tags: Listening, Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/listeningv2channels-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/listeningv2channels-get-openapi.md
+- name: NPR
+  x-api-slug: npr
+  description: NPR delivers breaking national and world news. Also top stories from
+    business, politics, health, science, technology, music, arts and culture. Subscribe
+    to podcasts and RSS feeds.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
   humanURL: http://www.npr.org
   baseURL: https://api.npr.org//
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/listening-v2-channels-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/listening-v2-channels-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/openapi.md
 x-common:
 - type: x-base
   url: http://api.npr.org/

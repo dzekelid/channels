@@ -1,5 +1,6 @@
 ---
 name: Slack
+x-slug: slack
 description: Slack is a team communication application providing services such as
   real-time messaging, archiving, and to search for modern teams. It offers one-on-one
   messaging, private groups, persistent chat rooms, and direct messaging as well as
@@ -9,110 +10,208 @@ description: Slack is a team communication application providing services such a
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Road Map
-- My API Stack
-- Messaging API
-- Messaging
-- Media
-- Indie EdTech Data Jam
-- Imports
-- Getting Started
-- Communications
-- Collaboration
-- Chat
-- Change Log Example
-- Change Log
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Channels
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Slack Archive Channel
+  x-api-slug: slack
+  description: Archives a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.archive
+  tags: Messaging,Channels, Archives
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsarchive-post-openapi.md
+- name: Slack Get Channel
+  x-api-slug: slack
+  description: Gets information about a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.info
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsinfo-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsinfo-get-openapi.md
+- name: Slack Remove User From Channel
+  x-api-slug: slack
+  description: Removes a user from a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.kick
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelskick-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelskick-post-openapi.md
+- name: Slack Get Channel History
+  x-api-slug: slack
+  description: Fetches history of messages and events from a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.history
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelshistory-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelshistory-get-openapi.md
+- name: Slack Leave Channel
+  x-api-slug: slack
+  description: Leaves a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.leave
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsleave-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsleave-post-openapi.md
+- name: Slack Rename Channel
+  x-api-slug: slack
+  description: Renames a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.rename
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsrename-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsrename-post-openapi.md
+- name: Slack Mark Channel
+  x-api-slug: slack
+  description: Sets the read cursor in a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.mark
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsmark-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsmark-post-openapi.md
 - name: Slack Unarchive Channel
+  x-api-slug: slack
   description: Unarchives a channel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
-  baseURL: https://slack.com//api
-  tags: Channels
+  baseURL: https://slack.com//api//channels.unarchive
+  tags: Messaging,Channels, Archives
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-unarchive-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-unarchive-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsunarchive-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsunarchive-post-openapi.md
+- name: Slack Create Channel
+  x-api-slug: slack
+  description: Creates a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.create
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelscreate-post-openapi.md
+- name: Slack Join Channel
+  x-api-slug: slack
+  description: Joins a channel, creating it if needed.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.join
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsjoin-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsjoin-post-openapi.md
+- name: Slack Set Channel Topic
+  x-api-slug: slack
+  description: Sets the topic for a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.setTopic
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelssettopic-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelssettopic-post-openapi.md
+- name: Slack Set Channel Purpose
+  x-api-slug: slack
+  description: Sets the purpose for a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.setPurpose
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelssetpurpose-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelssetpurpose-post-openapi.md
+- name: Slack List Channels
+  x-api-slug: slack
+  description: Lists all channels in a Slack team.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.list
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelslist-get-openapi.md
+- name: Slack Invite Channel User
+  x-api-slug: slack
+  description: Invites a user to a channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.invite
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsinvite-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsinvite-post-openapi.md
 - name: Slack Get Channel Thread
+  x-api-slug: slack
   description: Retrieve a thread of messages posted to a channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
+  humanURL: https://slack.com
+  baseURL: https://slack.com//api//channels.replies
+  tags: Messaging,Channels
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsreplies-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channelsreplies-get-openapi.md
+- name: Slack
+  x-api-slug: slack
+  description: Slack is a team communication application providing services such as
+    real-time messaging, archiving, and to search for modern teams. It offers one-on-one
+    messaging, private groups, persistent chat rooms, and direct messaging as well
+    as group chats organized by topic. All content inside Slack is searchable from
+    one search box and it integrates with a number of third-party services, including
+    Google Docs, Dropbox, Heroku, Crashlytics, GitHub, and Zendesk.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/slack-logo.png
   humanURL: https://slack.com
   baseURL: https://slack.com//api
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-replies-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/channels-replies-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/slack/openapi.md
 x-common:
-- type: x-application-gallery
-  url: https://slack.com/apps
-- type: x-blog
-  url: http://slackhq.com/
-- type: x-blog
-  url: https://medium.com/slack-developer-blog
-- type: x-blog-rss
-  url: http://slackhq.com/rss
-- type: x-blog-rss
-  url: https://medium.com/feed/slack-developer-blog
-- type: x-branding
-  url: https://slack.com/brand-guidelines
-- type: x-buttons
-  url: https://api.slack.com/docs/slack-button
-- type: x-c-sharp-sdk
-  url: https://api.slack.com/web
-- type: x-change-log
-  url: https://api.slack.com/changelog
-- type: x-developer
-  url: https://api.slack.com/
-- type: x-faq
-  url: https://api.slack.com/faq
-- type: x-getting-started
-  url: https://slack.com/getting-started
-- type: x-github
-  url: https://github.com/slackhq
-- type: x-incoming-webhooks
-  url: https://api.slack.com/incoming-webhooks
-- type: x-oauth-overview
-  url: https://api.slack.com/docs/oauth
-- type: x-oauth-scopes
-  url: https://api.slack.com/docs/oauth-scopes
-- type: x-outgoing-webhooks
-  url: https://api.slack.com/outgoing-webhooks
-- type: x-presence
-  url: https://api.slack.com/docs/presence
-- type: x-pricing
-  url: https://slack.com/pricing
-- type: x-privacy
-  url: https://slack.com/privacy-policy
-- type: x-rate-limits
-  url: https://api.slack.com/docs/rate-limits
-- type: x-real-time-messaging-api
-  url: https://api.slack.com/rtm
-- type: x-road-map
-  url: https://api.slack.com/roadmap
-- type: x-security
-  url: https://slack.com/security
-- type: x-status
-  url: https://status.slack.com/
-- type: x-support
-  url: https://get.slack.help/hc/en-us
-- type: x-terms-of-service
-  url: https://slack.com/terms-of-service
-- type: x-transparency-report
-  url: https://slack.com/transparency-report
-- type: x-twitter
-  url: https://twitter.com/slackapi
-- type: x-website
-  url: https://slack.com
 - type: x-application-gallery
   url: https://slack.com/apps
 - type: x-blog

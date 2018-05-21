@@ -1,5 +1,6 @@
 ---
 name: Google Doubleclick
+x-slug: google-doubleclick
 description: The Ad Exchange Buyer REST API allows your Real-Time Bidding application
   to access and update account information and to submit creatives. The API also allows
   an application (whether it does static bidding or real-time bidding) to discover
@@ -7,25 +8,57 @@ description: The Ad Exchange Buyer REST API allows your Real-Time Bidding applic
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Google APIs
-- Advertising
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Channels
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Google Doubleclick API Get Custom Channels
+  x-api-slug: google-doubleclick-api
+  description: List all custom channels in the specified ad client for this Ad Exchange
+    account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/customchannels
+  tags: Advertising,Channels
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/accountsaccountidadclientsadclientidcustomchannels-get-openapi.md
+- name: Google Doubleclick API Get Custom Channels
+  x-api-slug: google-doubleclick-api
+  description: Get the specified custom channel from the specified ad client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/customchannels/{customChannelId}
+  tags: Advertising,Channels
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/accountsaccountidadclientsadclientidcustomchannelscustomchannelid-get-openapi.md
 - name: Google Doubleclick API Get URL Channels
+  x-api-slug: google-doubleclick-api
   description: List all URL channels in the specified ad client for this Ad Exchange
     account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://{host}//
+  baseURL: https://///accounts/{accountId}/adclients/{adClientId}/urlchannels
+  tags: Advertising,Channels
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/accountsaccountidadclientsadclientidurlchannels-get-openapi.md
+- name: Google Doubleclick API
+  x-api-slug: google-doubleclick-api
+  description: The Ad Exchange Buyer REST API allows your Real-Time Bidding application
+    to access and update account information and to submit creatives. The API also
+    allows an application (whether it does static bidding or real-time bidding) to
+    discover direct deals that sellers make available.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
+  humanURL: https://www.doubleclickbygoogle.com/
+  baseURL: https:///
   tags: Channels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/accounts-accountid-adclients-adclientid-urlchannels-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/openapi.md
 x-common:
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
