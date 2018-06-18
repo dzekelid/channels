@@ -74,16 +74,6 @@ paths:
           description: OK
       tags:
       - Channelsections
-    parameters:
-      summary: Parameters Channel Sections
-      description: Parameters channelsections
-      operationId: parametersChannelsections
-      x-api-path-slug: channelsections-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
     post:
       summary: Add Channel Sections
       description: Adds a channelSection for the authenticated user's channel.
@@ -182,16 +172,6 @@ paths:
         name: part
         description: The part parameter specifies a comma-separated list of one or
           more channel resource properties that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channels
-    parameters:
-      summary: Parameters Channels
-      description: Parameters channels
-      operationId: parametersChannels
-      x-api-path-slug: channels-parameters
       responses:
         200:
           description: OK

@@ -11,10 +11,10 @@ description: AWS Config is a fully managed service that provides you with an AWS
   change tracking, and troubleshooting.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Channels
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/apis.md
 specificationVersion: "0.14"
 apis:

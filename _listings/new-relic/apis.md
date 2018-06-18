@@ -1,16 +1,14 @@
 ---
 name: New Relic
 x-slug: new-relic
-description: New Relic offers SaaS Software Analytics Platform that offers Application
-  Performance Management and Real User Monitoring for Cloud and Data Center deployed
-  web applications implemented in Ruby, Java, .NET, Python, PHP, Node.js. New Relic
-  also offers mobile monitoring solutions for iOS and Android applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+description: New Relic???s digital intelligence platform lets developers, ops, and
+  tech teams measure and monitor the performance of their applications and infrastructure.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "10322"
 tags: Channels
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,29 +17,29 @@ apis:
   description: "This API endpoint updates policy/channel associations.\n\nNote: Admin
     User\u2019s API Key is required.\n\nSee our documentation for a discussion on
     updating notification channels with policies."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///alerts_policy_channels.{format}
   tags: Alerts, Policy, Channels., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channelsformat-put-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channels-format-put-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channelsformat-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channels-format-put-openapi.md
 - name: New Relic Delete Alerts Policy Channels. Format
   x-api-slug: new-relic
   description: "This API endpoint deletes Alerts policy/channel associations.\n\nNote:
     Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
     on deleting notification channels with policies."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///alerts_policy_channels.{format}
   tags: Alerts, Policy, Channels., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channelsformat-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channels-format-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channelsformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-policy-channels-format-delete-openapi.md
 - name: New Relic Get Alerts Channels. Format
   x-api-slug: new-relic
   description: |-
@@ -50,15 +48,15 @@ apis:
     It returns a list of the channels associated with your New Relic account.
 
     See our documentation for a discussion on listing notification channels.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///alerts_channels.{format}
   tags: Alerts, Channels., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channelsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channels-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channelsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channels-format-get-openapi.md
 - name: New Relic Add Alerts Channels. Format
   x-api-slug: new-relic
   description: "This API endpoint works with new Alerts on alerts.newrelic.com.\n\nIt
@@ -82,56 +80,54 @@ apis:
     \"password\",\n\"payload_type\": \"application/x-www-form-urlencoded\",\n\"payload\":
     {\"account_id\": 1, \"account_name\": \"account name\" },\n\"headers\": {\"header1\":
     \"test\", \"header2\": \"test\"}\n\n\n    }"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///alerts_channels.{format}
   tags: Alerts, Channels., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channelsformat-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channels-format-post-openapi.md
 - name: New Relic Delete Alerts Channels Channel  . Format
   x-api-slug: new-relic
   description: "This API endpoint deletes Alerts notification channels.\n\nNote: Admin
     User\u2019s API Key is required.\n\nSee our documentation for a discussion on
     deleting notification channels."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///alerts_channels/{channel_id}.{format}
   tags: Alerts, Channels, Channel, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channelschannel-idformat-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/alerts-channelschannel-id-format-delete-openapi.md
 - name: New Relic Get Notification Channels. Format
   x-api-slug: new-relic
   description: "WARNING: This is legacy alerting.  This endpoint will be deprecated.\n\nThis
     API endpoint returns a paginated \nlist of the notification channels associated
     with your New Relic account.\n\nNotification channels can be filtered by their
     type or a list of IDs."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///notification_channels.{format}
   tags: Notification, Channels., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/notification-channelsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/notification-channels-format-get-openapi.md
 - name: New Relic Get Notification Channels  . Format
   x-api-slug: new-relic
   description: "WARNING: This is legacy alerting.  This endpoint will be deprecated.\n\nThis
     API endpoint returns a single notification channel, identified by ID.\u201D"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///notification_channels/{id}.{format}
   tags: Notification, Channels, , ., Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/notification-channelsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/new-relic/notification-channelsid-format-get-openapi.md
 - name: New Relic
   x-api-slug: new-relic
-  description: New Relic offers SaaS Software Analytics Platform that offers Application
-    Performance Management and Real User Monitoring for Cloud and Data Center deployed
-    web applications implemented in Ruby, Java, .NET, Python, PHP, Node.js. New Relic
-    also offers mobile monitoring solutions for iOS and Android applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  description: New Relic???s digital intelligence platform lets developers, ops, and
+    tech teams measure and monitor the performance of their applications and infrastructure.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2/
   tags: Channels
@@ -143,8 +139,26 @@ x-common:
   url: https://blog.newrelic.com/
 - type: x-blog-rss
   url: https://blog.newrelic.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/new-relic
 - type: x-developer
   url: https://rpm.newrelic.com/api/explore/
+- type: x-email
+  url: billing@newrelic.com
+- type: x-email
+  url: resume@newrelic.com
+- type: x-email
+  url: PR@newrelic.com
+- type: x-email
+  url: copyright@newrelic.com
+- type: x-email
+  url: dataprivacy@newrelic.com
+- type: x-email
+  url: PersonalDataRequest@newrelic.com
+- type: x-email
+  url: support@newrelic.com
+- type: x-email
+  url: compliance@newrelic.com
 - type: x-github
   url: https://github.com/newrelic
 - type: x-twitter

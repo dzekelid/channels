@@ -4,7 +4,7 @@ x-collection-name: Azure DevTest Labs
 x-complete: 1
 info:
   title: DevTestLabsClient
-  description: the-devtest-labs-client
+  description: the-devtest-labs-client-
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -20,7 +20,7 @@ paths:
       summary: Notification Channels List
       description: List notificationchannels in a given lab.
       operationId: NotificationChannels_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannels-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannels-get
       parameters:
       - in: query
         name: $expand
@@ -49,7 +49,7 @@ paths:
       summary: Notification Channels Get
       description: Get notificationchannel.
       operationId: NotificationChannels_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-get
       parameters:
       - in: query
         name: $expand
@@ -71,7 +71,7 @@ paths:
       summary: Notification Channels Create Or Update
       description: Create or replace an existing notificationChannel.
       operationId: NotificationChannels_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-put
       parameters:
       - in: path
         name: labName
@@ -95,7 +95,7 @@ paths:
       summary: Notification Channels Delete
       description: Delete notificationchannel.
       operationId: NotificationChannels_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-delete
       parameters:
       - in: path
         name: labName
@@ -114,7 +114,7 @@ paths:
       summary: Notification Channels Update
       description: Modify properties of notificationchannels.
       operationId: NotificationChannels_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsname-patch
       parameters:
       - in: path
         name: labName
@@ -139,7 +139,7 @@ paths:
       summary: Notification Channels Notify
       description: Send notification to provided channel.
       operationId: NotificationChannels_Notify
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdevtestlablabslabnamenotificationchannelsnamenotify-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-devtestlablabslabnamenotificationchannelsnamenotify-post
       parameters:
       - in: path
         name: labName

@@ -4,7 +4,7 @@ x-collection-name: Slack
 x-complete: 1
 info:
   title: Slack
-  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-20based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes
+  description: one-way-to-interact-with-the-slack-platform-is-its-http-rpcbased-web-api-a-collection-of-methods-requiring-oauth-2-0based-user-bot-or-workspace-tokens-blessed-with-related-oauth-scopes-
   version: 1.0.3
 host: slack.com
 basePath: /api
@@ -20,7 +20,7 @@ paths:
       summary: Archive Channel
       description: Archives a channel.
       operationId: channels_archive
-      x-api-path-slug: channelsarchive-post
+      x-api-path-slug: channels-archive-post
       parameters:
       - in: formData
         name: channel
@@ -40,7 +40,7 @@ paths:
       summary: Get Channel
       description: Gets information about a channel.
       operationId: channels_info
-      x-api-path-slug: channelsinfo-get
+      x-api-path-slug: channels-info-get
       parameters:
       - in: query
         name: channel
@@ -62,7 +62,7 @@ paths:
       summary: Remove User From Channel
       description: Removes a user from a channel.
       operationId: channels_kick
-      x-api-path-slug: channelskick-post
+      x-api-path-slug: channels-kick-post
       parameters:
       - in: formData
         name: channel
@@ -84,7 +84,7 @@ paths:
       summary: Get Channel History
       description: Fetches history of messages and events from a channel.
       operationId: channels_history
-      x-api-path-slug: channelshistory-get
+      x-api-path-slug: channels-history-get
       parameters:
       - in: query
         name: channel
@@ -118,7 +118,7 @@ paths:
       summary: Leave Channel
       description: Leaves a channel.
       operationId: channels_leave
-      x-api-path-slug: channelsleave-post
+      x-api-path-slug: channels-leave-post
       parameters:
       - in: formData
         name: channel
@@ -137,7 +137,7 @@ paths:
       summary: Rename Channel
       description: Renames a channel.
       operationId: channels_rename
-      x-api-path-slug: channelsrename-post
+      x-api-path-slug: channels-rename-post
       parameters:
       - in: formData
         name: channel
@@ -163,7 +163,7 @@ paths:
       summary: Mark Channel
       description: Sets the read cursor in a channel.
       operationId: channels_mark
-      x-api-path-slug: channelsmark-post
+      x-api-path-slug: channels-mark-post
       parameters:
       - in: formData
         name: channel
@@ -185,7 +185,7 @@ paths:
       summary: Unarchive Channel
       description: Unarchives a channel.
       operationId: channels_unarchive
-      x-api-path-slug: channelsunarchive-post
+      x-api-path-slug: channels-unarchive-post
       parameters:
       - in: formData
         name: channel
@@ -205,7 +205,7 @@ paths:
       summary: Create Channel
       description: Creates a channel.
       operationId: channels_create
-      x-api-path-slug: channelscreate-post
+      x-api-path-slug: channels-create-post
       parameters:
       - in: formData
         name: name
@@ -228,7 +228,7 @@ paths:
       summary: Join Channel
       description: Joins a channel, creating it if needed.
       operationId: channels_join
-      x-api-path-slug: channelsjoin-post
+      x-api-path-slug: channels-join-post
       parameters:
       - in: formData
         name: name
@@ -251,7 +251,7 @@ paths:
       summary: Set Channel Topic
       description: Sets the topic for a channel.
       operationId: channels_setTopic
-      x-api-path-slug: channelssettopic-post
+      x-api-path-slug: channels-settopic-post
       parameters:
       - in: formData
         name: channel
@@ -273,7 +273,7 @@ paths:
       summary: Set Channel Purpose
       description: Sets the purpose for a channel.
       operationId: channels_setPurpose
-      x-api-path-slug: channelssetpurpose-post
+      x-api-path-slug: channels-setpurpose-post
       parameters:
       - in: formData
         name: channel
@@ -295,7 +295,7 @@ paths:
       summary: List Channels
       description: Lists all channels in a Slack team.
       operationId: channels_list
-      x-api-path-slug: channelslist-get
+      x-api-path-slug: channels-list-get
       parameters:
       - in: query
         name: cursor
@@ -324,7 +324,7 @@ paths:
       summary: Invite Channel User
       description: Invites a user to a channel.
       operationId: channels_invite
-      x-api-path-slug: channelsinvite-post
+      x-api-path-slug: channels-invite-post
       parameters:
       - in: formData
         name: channel
@@ -346,7 +346,7 @@ paths:
       summary: Get Channel Thread
       description: Retrieve a thread of messages posted to a channel
       operationId: channels_replies
-      x-api-path-slug: channelsreplies-get
+      x-api-path-slug: channels-replies-get
       parameters:
       - in: query
         name: channel

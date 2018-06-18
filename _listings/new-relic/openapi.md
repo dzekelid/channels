@@ -20,7 +20,7 @@ paths:
         Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
         on updating notification channels with policies."
       operationId: putAlertsPolicyChannels.Format
-      x-api-path-slug: alerts-policy-channelsformat-put
+      x-api-path-slug: alerts-policy-channels-format-put
       parameters:
       - in: query
         name: channel_ids
@@ -44,7 +44,7 @@ paths:
         Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
         on deleting notification channels with policies."
       operationId: deleteAlertsPolicyChannels.Format
-      x-api-path-slug: alerts-policy-channelsformat-delete
+      x-api-path-slug: alerts-policy-channels-format-delete
       parameters:
       - in: query
         name: channel_id
@@ -72,7 +72,7 @@ paths:
 
         See our documentation for a discussion on listing notification channels.
       operationId: getAlertsChannels.Format
-      x-api-path-slug: alerts-channelsformat-get
+      x-api-path-slug: alerts-channels-format-get
       parameters:
       - in: query
         name: page
@@ -110,7 +110,7 @@ paths:
         {\"account_id\": 1, \"account_name\": \"account name\" },\n\"headers\": {\"header1\":
         \"test\", \"header2\": \"test\"}\n\n\n    }"
       operationId: postAlertsChannels.Format
-      x-api-path-slug: alerts-channelsformat-post
+      x-api-path-slug: alerts-channels-format-post
       parameters:
       - in: body
         name: channel
@@ -135,7 +135,7 @@ paths:
         Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
         on deleting notification channels."
       operationId: deleteAlertsChannelsChannel.Format
-      x-api-path-slug: alerts-channelschannel-idformat-delete
+      x-api-path-slug: alerts-channelschannel-id-format-delete
       parameters:
       - in: path
         name: channel_id
@@ -159,7 +159,7 @@ paths:
         with your New Relic account.\n\nNotification channels can be filtered by their
         type or a list of IDs."
       operationId: getNotificationChannels.Format
-      x-api-path-slug: notification-channelsformat-get
+      x-api-path-slug: notification-channels-format-get
       parameters:
       - in: query
         name: filter[ids]
@@ -186,7 +186,7 @@ paths:
       description: "WARNING: This is legacy alerting.  This endpoint will be deprecated.\n\nThis
         API endpoint returns a single notification channel, identified by ID.\u201D"
       operationId: getNotificationChannels.Format
-      x-api-path-slug: notification-channelsidformat-get
+      x-api-path-slug: notification-channelsid-format-get
       parameters:
       - in: path
         name: id

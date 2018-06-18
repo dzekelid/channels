@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jp
 x-kinRank: "9"
 x-alexaRank: "641"
 tags: Channels
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
@@ -18,9 +18,9 @@ apis:
   description: These channels allow the user to specify a focus for the content returned
     in the recommendations endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://www.npr.org
+  humanURL: http://npr.org
   baseURL: https://api.npr.org////listening/v2/channels
-  tags: Listening, Channels
+  tags: News,Listening, Channels
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/listeningv2channels-get-postman.md
@@ -32,7 +32,7 @@ apis:
     business, politics, health, science, technology, music, arts and culture. Subscribe
     to podcasts and RSS feeds.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://www.npr.org
+  humanURL: http://npr.org
   baseURL: https://api.npr.org//
   tags: Channels
   properties:
@@ -83,6 +83,8 @@ x-common:
   url: https://twitter.com/NPR
 - type: x-twitter
   url: https://twitter.com/NPRTechTeam
+- type: x-website
+  url: http://npr.org
 - type: x-website
   url: http://www.npr.org
 include: []

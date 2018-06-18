@@ -39,6 +39,7 @@ paths:
         200:
           description: OK
       tags:
+      - News
       - Listening
       - Channels
 x-streamrank:

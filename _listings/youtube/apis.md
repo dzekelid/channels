@@ -7,10 +7,10 @@ description: YouTube allows billions of people to discover, watch and share orig
   and advertisers large and small.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Channels
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,18 +38,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-get-openapi.md
-- name: Youtube Parameters Channel Sections
-  x-api-slug: youtube
-  description: Parameters channelsections
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//channelSections
-  tags: Channelsections
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelsections-parameters-openapi.md
 - name: Youtube Add Channel Sections
   x-api-slug: youtube
   description: Adds a channelSection for the authenticated user's channel.
@@ -83,18 +71,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-get-openapi.md
-- name: Youtube Parameters Channels
-  x-api-slug: youtube
-  description: Parameters channels
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
-  humanURL: https://www.youtube.com/
-  baseURL: https://www.googleapis.com//youtube/v1//channels
-  tags: Channels
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-parameters-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-parameters-openapi.md
 - name: Youtube Put Channels
   x-api-slug: youtube
   description: Updates a channel's metadata. Note that this method currently only

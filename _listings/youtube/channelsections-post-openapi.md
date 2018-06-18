@@ -72,16 +72,6 @@ paths:
           description: OK
       tags:
       - Channelsections
-    parameters:
-      summary: Parameters Channel Sections
-      description: Parameters channelsections
-      operationId: parametersChannelsections
-      x-api-path-slug: channelsections-parameters
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
     post:
       summary: Add Channel Sections
       description: Adds a channelSection for the authenticated user's channel.

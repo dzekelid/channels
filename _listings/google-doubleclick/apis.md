@@ -7,10 +7,10 @@ description: The Ad Exchange Buyer REST API allows your Real-Time Bidding applic
   direct deals that sellers make available.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Channels
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
 apis:
