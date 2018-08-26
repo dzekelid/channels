@@ -13,12 +13,64 @@ produces:
 consumes:
 - application/json
 paths:
+  /alerts_channels/{channel_id}.{format}:
+    delete:
+      summary: Delete Alerts Channels Channel  . Format
+      description: |-
+        This API endpoint deletes Alerts notification channels.
+
+        Note: Admin User???s API Key is required.
+
+        See our documentation for a discussion on deleting notification channels.
+      operationId: deleteAlertsChannelsChannel.Format
+      x-api-path-slug: alerts-channelschannel-id-format-delete
+      parameters:
+      - in: path
+        name: channel_id
+        description: Channel ID
+        type: integer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Alerts
+      - Channels
+      - Channel
+      - ""
+      - .
+      - Format
+  /notification_channels/{id}.{format}:
+    get:
+      summary: Get Notification Channels  . Format
+      description: |-
+        WARNING: This is legacy alerting.  This endpoint will be deprecated.
+
+        This API endpoint returns a single notification channel, identified by ID.???
+      operationId: getNotificationChannels.Format
+      x-api-path-slug: notification-channelsid-format-get
+      parameters:
+      - in: path
+        name: id
+        description: Notification Channel ID
+        type: integer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Notification
+      - Channels
+      - ""
+      - .
+      - Format
   /alerts_policy_channels.{format}:
     put:
       summary: Put Alerts Policy Channels. Format
-      description: "This API endpoint updates policy/channel associations.\n\nNote:
-        Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
-        on updating notification channels with policies."
+      description: |-
+        This API endpoint updates policy/channel associations.
+
+        Note: Admin User???s API Key is required.
+
+        See our documentation for a discussion on updating notification channels with policies.
       operationId: putAlertsPolicyChannels.Format
       x-api-path-slug: alerts-policy-channels-format-put
       parameters:
@@ -40,9 +92,12 @@ paths:
       - Format
     delete:
       summary: Delete Alerts Policy Channels. Format
-      description: "This API endpoint deletes Alerts policy/channel associations.\n\nNote:
-        Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
-        on deleting notification channels with policies."
+      description: |-
+        This API endpoint deletes Alerts policy/channel associations.
+
+        Note: Admin User???s API Key is required.
+
+        See our documentation for a discussion on deleting notification channels with policies.
       operationId: deleteAlertsPolicyChannels.Format
       x-api-path-slug: alerts-policy-channels-format-delete
       parameters:
@@ -88,7 +143,7 @@ paths:
     post:
       summary: Add Alerts Channels. Format
       description: "This API endpoint works with new Alerts on alerts.newrelic.com.\n\nIt
-        creates a channel associated with your New Relic account.\n\nNote: Admin User\u2019s
+        creates a channel associated with your New Relic account.\n\nNote: Admin User???s
         API Key is required.\n\nSee our documentation for a discussion on creating
         notification channels.\n\nChannel type configuration options:\n\n\n  \n    Email\n\n
         \   {\n\n    \"recipients\" : \"test@google.com\",\n\"include_json_attachment\"
@@ -128,29 +183,6 @@ paths:
       - Alerts
       - Channels.
       - Format
-  /alerts_channels/{channel_id}.{format}:
-    delete:
-      summary: Delete Alerts Channels Channel  . Format
-      description: "This API endpoint deletes Alerts notification channels.\n\nNote:
-        Admin User\u2019s API Key is required.\n\nSee our documentation for a discussion
-        on deleting notification channels."
-      operationId: deleteAlertsChannelsChannel.Format
-      x-api-path-slug: alerts-channelschannel-id-format-delete
-      parameters:
-      - in: path
-        name: channel_id
-        description: Channel ID
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Alerts
-      - Channels
-      - Channel
-      - ""
-      - .
-      - Format
   /notification_channels.{format}:
     get:
       summary: Get Notification Channels. Format
@@ -179,26 +211,5 @@ paths:
       tags:
       - Notification
       - Channels.
-      - Format
-  /notification_channels/{id}.{format}:
-    get:
-      summary: Get Notification Channels  . Format
-      description: "WARNING: This is legacy alerting.  This endpoint will be deprecated.\n\nThis
-        API endpoint returns a single notification channel, identified by ID.\u201D"
-      operationId: getNotificationChannels.Format
-      x-api-path-slug: notification-channelsid-format-get
-      parameters:
-      - in: path
-        name: id
-        description: Notification Channel ID
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Notification
-      - Channels
-      - ""
-      - .
       - Format
 ---

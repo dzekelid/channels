@@ -201,6 +201,120 @@ paths:
       - Id
       - Notification
       - Preferences
+  /users/{user_id}/communication_channels/communication_channel_id/notification_preferences/{notification}:
+    get:
+      summary: Get a preference
+      description: Get a preference.
+      operationId: get-a-preference
+      x-api-path-slug: usersuser-idcommunication-channelscommunication-channel-idnotification-preferencesnotification-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Communication
+      - Channels
+      - Communication
+      - Channel
+      - Id
+      - Notification
+      - Preferences
+      - Notification
+  /users/{user_id}/communication_channels/communication_channel_id/notification_preference_categories:
+    get:
+      summary: List of preference categories
+      description: List of preference categories.
+      operationId: list-of-preference-categories
+      x-api-path-slug: usersuser-idcommunication-channelscommunication-channel-idnotification-preference-categories-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Communication
+      - Channels
+      - Communication
+      - Channel
+      - Id
+      - Notification
+      - Preference
+      - Categories
+  /users/{user_id}/communication_channels/id:
+    delete:
+      summary: Delete a communication channel
+      description: Delete a communication channel.
+      operationId: delete-a-communication-channel
+      x-api-path-slug: usersuser-idcommunication-channelsid-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Communication
+      - Channels
+      - Id
+  /users/{user_id}/communication_channels/type/{address}:
+    delete:
+      summary: Delete a communication channel
+      description: Delete a communication channel.
+      operationId: delete-a-communication-channel
+      x-api-path-slug: usersuser-idcommunication-channelstypeaddress-delete
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Communication
+      - Channels
+      - Type
+      - Address
+  /users/{user_id}/communication_channels/type/{address}/notification_preferences:
+    get:
+      summary: List preferences
+      description: List preferences.
+      operationId: list-preferences
+      x-api-path-slug: usersuser-idcommunication-channelstypeaddressnotification-preferences-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Communication
+      - Channels
+      - Type
+      - Address
+      - Notification
+      - Preferences
+  /users/{user_id}/communication_channels/type/{address}/notification_preferences/notification:
+    get:
+      summary: Get a preference
+      description: Get a preference.
+      operationId: get-a-preference
+      x-api-path-slug: usersuser-idcommunication-channelstypeaddressnotification-preferencesnotification-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Communication
+      - Channels
+      - Type
+      - Address
+      - Notification
+      - Preferences
+      - Notification
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

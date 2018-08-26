@@ -19,106 +19,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /channelSections:
-    delete:
-      summary: Delete Channel Sections
-      description: Deletes a channelSection.
-      operationId: deleteChannelsections
-      x-api-path-slug: channelsections-delete
-      parameters:
-      - in: query
-        name: id
-        description: The id parameter specifies the YouTube channelSection ID for
-          the resource that is being deleted
-      - in: query
-        name: onBehalfOfContentOwner
-        description: 'Note: This parameter is intended exclusively for YouTube content
-          partners'
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
-    get:
-      summary: Get Channel Sections
-      description: Returns channelSection resources that match the API request criteria.
-      operationId: getChannelsections
-      x-api-path-slug: channelsections-get
-      parameters:
-      - in: query
-        name: channelId
-        description: The channelId parameter specifies a YouTube channel ID
-      - in: query
-        name: hl
-        description: The hl parameter indicates that the snippet
-      - in: query
-        name: id
-        description: The id parameter specifies a comma-separated list of the YouTube
-          channelSection ID(s) for the resource(s) that are being retrieved
-      - in: query
-        name: mine
-        description: Set this parameters value to true to retrieve a feed of the authenticated
-          users channelSections
-      - in: query
-        name: onBehalfOfContentOwner
-        description: 'Note: This parameter is intended exclusively for YouTube content
-          partners'
-      - in: query
-        name: part
-        description: The part parameter specifies a comma-separated list of one or
-          more channelSection resource properties that the API response will include
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
-    post:
-      summary: Add Channel Sections
-      description: Adds a channelSection for the authenticated user's channel.
-      operationId: postChannelsections
-      x-api-path-slug: channelsections-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: onBehalfOfContentOwner
-        description: 'Note: This parameter is intended exclusively for YouTube content
-          partners'
-      - in: query
-        name: onBehalfOfContentOwnerChannel
-        description: This parameter can only be used in a properly authorized request
-      - in: query
-        name: part
-        description: The part parameter serves two purposes in this operation
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
-    put:
-      summary: Put Channel Sections
-      description: Update a channelSection.
-      operationId: putChannelsections
-      x-api-path-slug: channelsections-put
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: onBehalfOfContentOwner
-        description: 'Note: This parameter is intended exclusively for YouTube content
-          partners'
-      - in: query
-        name: part
-        description: The part parameter serves two purposes in this operation
-      responses:
-        200:
-          description: OK
-      tags:
-      - Channelsections
   /channels:
     get:
       summary: Get Channels
@@ -200,4 +100,34 @@ paths:
           description: OK
       tags:
       - Channels
+  /channelBanners/insert:
+    post:
+      summary: Add Channel Banners Insert
+      description: |-
+        Uploads a channel banner image to YouTube. This method represents the first two steps in a three-step process to update the banner image for a channel:
+
+        - Call the channelBanners.insert method to upload the binary image data to YouTube. The image must have a 16:9 aspect ratio and be at least 2120x1192 pixels.
+        - Extract the url property's value from the response that the API returns for step 1.
+        - Call the channels.update method to update the channel's branding settings. Set the brandingSettings.image.bannerExternalUrl property's value to the URL obtained in step 2.
+      operationId: postChannelbannersInsert
+      x-api-path-slug: channelbannersinsert-post
+      parameters:
+      - in: body
+        name: body
+        schema:
+          $ref: '#/definitions/holder'
+      - in: query
+        name: channelId
+        description: The channelId parameter identifies the YouTube channel to which
+          the banner is uploaded
+      - in: query
+        name: onBehalfOfContentOwner
+        description: 'Note: This parameter is intended exclusively for YouTube content
+          partners'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Channelbanners
+      - Insert
 ---

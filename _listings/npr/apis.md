@@ -8,37 +8,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jp
 x-kinRank: "9"
 x-alexaRank: "598"
 tags: Channels
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: NPR Get the list of available channels
-  x-api-slug: npr
+- name: NPR One API Reference - Get the list of available channels
+  x-api-slug: listeningv2channels-get
   description: These channels allow the user to specify a focus for the content returned
     in the recommendations endpoint.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
   humanURL: http://npr.org
-  baseURL: https://api.npr.org////listening/v2/channels
-  tags: News,Listening, Channels
+  baseURL: https://api.npr.org//
+  tags: News, Radio, Getting Started Example, Federal Government, Stack Network, Stack,
+    Mobile, Media, API Provider, Broadcasts, Profiles, Publish, General Data, Relative
+    Data, Service API, Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/listeningv2channels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/listeningv2channels-get-openapi.md
-- name: NPR
-  x-api-slug: npr
-  description: NPR delivers breaking national and world news. Also top stories from
-    business, politics, health, science, technology, music, arts and culture. Subscribe
-    to podcasts and RSS feeds.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://npr.org
-  baseURL: https://api.npr.org//
-  tags: Channels
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/npr/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://nfusion.solutions.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://npr.stack.network
 - type: x-base
   url: http://api.npr.org/
 - type: x-codecademy

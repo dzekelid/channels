@@ -12,22 +12,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDeliveryChannel:
-    get:
-      summary: Delete Delivery Channel
-      description: Deletes the delivery channel.
-      operationId: deleteDeliveryChannel
-      x-api-path-slug: actiondeletedeliverychannel-get
-      parameters:
-      - in: query
-        name: DeliveryChannelName
-        description: The name of the delivery channel to delete
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Delivery Channels
   /?Action=DescribeDeliveryChannels:
     get:
       summary: Describe Delivery Channels
@@ -38,6 +22,22 @@ paths:
       - in: query
         name: DeliveryChannelNames
         description: A list of delivery channel names
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Delivery Channels
+  /?Action=DeleteDeliveryChannel:
+    get:
+      summary: Delete Delivery Channel
+      description: Deletes the delivery channel.
+      operationId: deleteDeliveryChannel
+      x-api-path-slug: actiondeletedeliverychannel-get
+      parameters:
+      - in: query
+        name: DeliveryChannelName
+        description: The name of the delivery channel to delete
         type: string
       responses:
         200:
