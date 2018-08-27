@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-yout
 x-kinRank: "9"
 x-alexaRank: "2"
 tags: Channels
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,71 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-get-openapi.md
+- name: YouTube - Put Channels
+  x-api-slug: channels-put
+  description: Updates a channel's metadata. Note that this method currently only
+    supports updates to the channel resource's brandingSettings and invideoPromotion
+    objects and their child properties.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channels-put-openapi.md
+- name: YouTube - Add Channel Banners Insert
+  x-api-slug: channelbannersinsert-post
+  description: |-
+    Uploads a channel banner image to YouTube. This method represents the first two steps in a three-step process to update the banner image for a channel:
+
+    - Call the channelBanners.insert method to upload the binary image data to YouTube. The image must have a 16:9 aspect ratio and be at least 2120x1192 pixels.
+    - Extract the url property's value from the response that the API returns for step 1.
+    - Call the channels.update method to update the channel's branding settings. Set the brandingSettings.image.bannerExternalUrl property's value to the URL obtained in step 2.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelbannersinsert-post-openapi.md
+- name: YouTube - Add Channel Banners Insert
+  x-api-slug: channelbannersinsert-post
+  description: |-
+    Uploads a channel banner image to YouTube. This method represents the first two steps in a three-step process to update the banner image for a channel:
+
+    - Call the channelBanners.insert method to upload the binary image data to YouTube. The image must have a 16:9 aspect ratio and be at least 2120x1192 pixels.
+    - Extract the url property's value from the response that the API returns for step 1.
+    - Call the channels.update method to update the channel's branding settings. Set the brandingSettings.image.bannerExternalUrl property's value to the URL obtained in step 2.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelbannersinsert-post-openapi.md
+- name: YouTube - Add Channel Banners Insert
+  x-api-slug: channelbannersinsert-post
+  description: |-
+    Uploads a channel banner image to YouTube. This method represents the first two steps in a three-step process to update the banner image for a channel:
+
+    - Call the channelBanners.insert method to upload the binary image data to YouTube. The image must have a 16:9 aspect ratio and be at least 2120x1192 pixels.
+    - Extract the url property's value from the response that the API returns for step 1.
+    - Call the channels.update method to update the channel's branding settings. Set the brandingSettings.image.bannerExternalUrl property's value to the URL obtained in step 2.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1
+  tags: Videos, Google APIs, Stack Network, Stack, internet, Technology, Mobile, SaaS,
+    General Data, Relative Data, Service API, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/youtube/channelbannersinsert-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://yelp.api.gallery.streamdata.io

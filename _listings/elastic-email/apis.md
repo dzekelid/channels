@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elasti
 x-kinRank: "8"
 x-alexaRank: "50338"
 tags: Channels
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/elastic-email/apis.md
 specificationVersion: "0.14"
 apis:
@@ -116,6 +116,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/elastic-email/mailerchannellist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/elastic-email/mailerchannellist-get-openapi.md
+- name: Elastic Email SMTP API - Listing of Active Channels
+  x-api-slug: mailerchannellist-get
+  description: Listing of Active Channels
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
+  humanURL: http://elasticemail.com
+  baseURL: http://api.elasticemail.com//
+  tags: Cloud, Target, Stack Network, Technology, SaaS, internet, API Provider, Emails,
+    Messages, Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/elastic-email/mailerchannellist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/elastic-email/mailerchannellist-get-openapi.md
+- name: Elastic Email SMTP API - Deleting Channel
+  x-api-slug: mailerchanneldelete-get
+  description: Deleting Channel
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/586-elastic-email.jpg
+  humanURL: http://elasticemail.com
+  baseURL: http://api.elasticemail.com//
+  tags: Cloud, Target, Stack Network, Technology, SaaS, internet, API Provider, Emails,
+    Messages, Profiles, Emails, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/elastic-email/mailerchanneldelete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/elastic-email/mailerchanneldelete-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ehrscape.api.gallery.streamdata.io

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Slack
 x-complete: 1
@@ -363,4 +362,3 @@ paths:
       tags:
       - Messaging
       - Channels
----

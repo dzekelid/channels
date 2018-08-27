@@ -13,11 +13,170 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Channels
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Config API - Describe Delivery Channels
+  x-api-slug: actiondescribedeliverychannels-get
+  description: Returns details about the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondescribedeliverychannels-get-openapi.md
+- name: AWS Config API - Delete Delivery Channel
+  x-api-slug: actiondeletedeliverychannel-get
+  description: Deletes the delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondeletedeliverychannel-get-openapi.md
+- name: AWS Config API - Delete Delivery Channel
+  x-api-slug: actiondeletedeliverychannel-get
+  description: Deletes the delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondeletedeliverychannel-get-openapi.md
+- name: AWS Config API - Delete Delivery Channel
+  x-api-slug: actiondeletedeliverychannel-get
+  description: Deletes the delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondeletedeliverychannel-get-openapi.md
+- name: AWS Config API - Describe Delivery Channels
+  x-api-slug: actiondescribedeliverychannels-get
+  description: Returns details about the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondescribedeliverychannels-get-openapi.md
+- name: AWS Config API - Describe Delivery Channels
+  x-api-slug: actiondescribedeliverychannels-get
+  description: Returns details about the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondescribedeliverychannels-get-openapi.md
+- name: AWS Config API - Describe Delivery Channels
+  x-api-slug: actiondescribedeliverychannels-get
+  description: Returns details about the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondescribedeliverychannels-get-openapi.md
+- name: AWS Config API - Describe Delivery Channel Status
+  x-api-slug: actiondescribedeliverychannelstatus-get
+  description: Returns the current status of the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondescribedeliverychannelstatus-get-openapi.md
+- name: AWS Config API - Describe Delivery Channel Status
+  x-api-slug: actiondescribedeliverychannelstatus-get
+  description: Returns the current status of the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondescribedeliverychannelstatus-get-openapi.md
+- name: AWS Config API - Describe Delivery Channel Status
+  x-api-slug: actiondescribedeliverychannelstatus-get
+  description: Returns the current status of the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actiondescribedeliverychannelstatus-get-openapi.md
+- name: AWS Config API - Put Delivery Channel
+  x-api-slug: actionputdeliverychannel-get
+  description: Creates a delivery channel object to deliver configuration information
+    to an Amazon S3 bucket and Amazon SNS topic.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actionputdeliverychannel-get-openapi.md
+- name: AWS Config API - Put Delivery Channel
+  x-api-slug: actionputdeliverychannel-get
+  description: Creates a delivery channel object to deliver configuration information
+    to an Amazon S3 bucket and Amazon SNS topic.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actionputdeliverychannel-get-openapi.md
+- name: AWS Config API - Put Delivery Channel
+  x-api-slug: actionputdeliverychannel-get
+  description: Creates a delivery channel object to deliver configuration information
+    to an Amazon S3 bucket and Amazon SNS topic.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/aws-config/actionputdeliverychannel-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.cognito.api.gallery.streamdata.io

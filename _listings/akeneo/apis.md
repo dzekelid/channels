@@ -12,11 +12,261 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "164081"
 tags: Channels
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Official Akeneo PIM API - channels
+  x-api-slug: restv1channels-get
+  description: Channels.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-get-openapi.md
+- name: Official Akeneo PIM API - channels (2.x only)
+  x-api-slug: restv1channels-patch
+  description: Channels (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-patch-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channelsmy-new-channel-3-patch
+  description: Channel (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsmy-new-channel-3-patch-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channelsmy-new-channel-3-patch
+  description: Channel (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsmy-new-channel-3-patch-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channelsmy-new-channel-3-patch
+  description: Channel (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsmy-new-channel-3-patch-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channelsmy-new-channel-3-patch
+  description: Channel (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsmy-new-channel-3-patch-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channelsmy-new-channel-3-patch
+  description: Channel (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsmy-new-channel-3-patch-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channelsmy-new-channel-3-patch
+  description: Channel (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsmy-new-channel-3-patch-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channelsmy-new-channel-3-patch
+  description: Channel (2.x only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsmy-new-channel-3-patch-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel (2.x only)
+  x-api-slug: restv1channels-post
+  description: Assuming that there is no "new_channel" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channels-post-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
+- name: Official Akeneo PIM API - channel
+  x-api-slug: restv1channelsecommerce-get
+  description: Assuming that the given code is the code of an existing channel
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/channels/master/_listings/akeneo/restv1channelsecommerce-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.akeneo.com/feed/
